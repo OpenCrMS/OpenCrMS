@@ -35,7 +35,7 @@ const nextConfig = {
   // Silence monorepo root inference warning during Docker builds
   outputFileTracingRoot: path.join(__dirname, '../..'),
   env: {
-    NEXT_PUBLIC_COMPANY_NAME: process.env.NEXT_PUBLIC_COMPANY_NAME || 'Apostille',
+    NEXT_PUBLIC_COMPANY_NAME: process.env.NEXT_PUBLIC_COMPANY_NAME || 'OpenCrMS',
     NEXT_PUBLIC_COMPANY_LOGO_URL: process.env.NEXT_PUBLIC_COMPANY_LOGO_URL || 'A',
   },
   serverExternalPackages: [

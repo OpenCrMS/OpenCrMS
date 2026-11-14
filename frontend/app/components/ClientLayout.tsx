@@ -63,7 +63,7 @@ const NAV_SECTIONS: { title: string; items: { href: string; label: string; icon:
 // Flat list for page title lookup
 const ALL_NAV_ITEMS = NAV_SECTIONS.flatMap(s => s.items);
 
-const COMPANY_NAME = process.env.NEXT_PUBLIC_COMPANY_NAME || 'Apostille';
+const COMPANY_NAME = process.env.NEXT_PUBLIC_COMPANY_NAME || 'OpenCrMS';
 
 export default function ClientLayout({ children }: ClientLayoutProps) {
   const { isAuthenticated, isLoading, logout, tenantId } = useAuth();

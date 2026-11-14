@@ -1,7 +1,7 @@
 {
-  "name": "apostille-backend",
+  "name": "opencrms-backend",
   "version": "1.0.0",
-  "description": "Express backend for Apostille",
+  "description": "Express backend for OpenCrMS",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",

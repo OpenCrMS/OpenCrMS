@@ -1,4 +1,4 @@
-# Apostille Credential Management System
+# OpenCrMS Credential Management System
 
 ## Software Requirements Document
 
@@ -13,11 +13,11 @@
 
 ### 1.1 Purpose
 
-This Software Requirements Document (SRD) specifies the functional and non-functional requirements for the Apostille Credential Management System (CrMS). It is intended to guide the design, development, and validation of the system.
+This Software Requirements Document (SRD) specifies the functional and non-functional requirements for the OpenCrMS Credential Management System (CrMS). It is intended to guide the design, development, and validation of the system.
 
 ### 1.2 Scope
 
-Apostille is a DIDComm-focused, credential-type-agnostic Credential Management System that supports both credential issuance and verification through configurable workflows and direct credential exchange standards. It is designed to be modular, extensible, and highly configurable, enabling task-focused deployments across diverse industry sectors.
+OpenCrMS is a DIDComm-focused, credential-type-agnostic Credential Management System that supports both credential issuance and verification through configurable workflows and direct credential exchange standards. It is designed to be modular, extensible, and highly configurable, enabling task-focused deployments across diverse industry sectors.
 
 ### 1.3 Definitions and Acronyms
 
@@ -53,7 +53,7 @@ Apostille is a DIDComm-focused, credential-type-agnostic Credential Management S
 
 ## 2. System Overview
 
-Apostille operates as either a workflow server or a workflow client depending on deployment configuration. It extends the functional boundaries of traditional credential management systems by leveraging advanced DIDComm workflows and emerging open standards within the verifiable credentials ecosystem.
+OpenCrMS operates as either a workflow server or a workflow client depending on deployment configuration. It extends the functional boundaries of traditional credential management systems by leveraging advanced DIDComm workflows and emerging open standards within the verifiable credentials ecosystem.
 
 ### 2.1 High-Level Goals
 
@@ -361,7 +361,7 @@ Apostille operates as either a workflow server or a workflow client depending on
 
 **REQ-WF-004:** Workflow templates shall support RBAC to control who can create, edit, deploy, and execute workflows.
 
-**REQ-WF-005:** Workflow templates shall include metadata describing how they are displayed and interacted with in Apostille.
+**REQ-WF-005:** Workflow templates shall include metadata describing how they are displayed and interacted with in OpenCrMS.
 
 ### 14.2 Workflow Instances
 

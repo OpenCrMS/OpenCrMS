@@ -5322,95 +5322,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"apostille-backend@workspace:backend":
-  version: 0.0.0-use.local
-  resolution: "apostille-backend@workspace:backend"
-  dependencies:
-    "@ajna-inc/calendar": "npm:0.1.0"
-    "@ajna-inc/group-messaging": "npm:0.1.2"
-    "@ajna-inc/openbadges": "npm:0.6.3"
-    "@ajna-inc/payments": "npm:0.6.1"
-    "@ajna-inc/poe": "npm:0.6.1"
-    "@ajna-inc/signing": "npm:0.6.1"
-    "@ajna-inc/vaults": "npm:^0.7.3"
-    "@ajna-inc/webrtc": "npm:0.6.1"
-    "@ajna-inc/workflow": "npm:0.6.82"
-    "@ajna-inc/workflow-backend-express": "workspace:*"
-    "@aws-sdk/client-s3": "npm:^3.966.0"
-    "@aws-sdk/s3-request-presigner": "npm:^3.966.0"
-    "@credo-ts/anoncreds": "npm:0.6.1"
-    "@credo-ts/askar": "npm:0.6.1"
-    "@credo-ts/core": "npm:0.6.1"
-    "@credo-ts/didcomm": "npm:0.6.1"
-    "@credo-ts/indy-vdr": "npm:0.6.1"
-    "@credo-ts/node": "npm:0.6.1"
-    "@credo-ts/openid4vc": "npm:0.6.1"
-    "@credo-ts/tenants": "npm:0.6.1"
-    "@hyperledger/anoncreds-nodejs": "npm:^0.3.1"
-    "@hyperledger/anoncreds-shared": "npm:^0.3.1"
-    "@openwallet-foundation/askar-nodejs": "npm:^0.4.3"
-    "@openwallet-foundation/askar-shared": "npm:^0.4.3"
-    "@types/bcrypt": "npm:^5.0.2"
-    "@types/cookie-parser": "npm:^1.4.8"
-    "@types/cors": "npm:^2.8.17"
-    "@types/express": "npm:^4.17.21"
-    "@types/figlet": "npm:^1.5.4"
-    "@types/indy-sdk": "npm:^1.16.26"
-    "@types/jest": "npm:^29.5.12"
-    "@types/jsonwebtoken": "npm:^9.0.9"
-    "@types/morgan": "npm:^1.9.9"
-    "@types/multer": "npm:^2.0.0"
-    "@types/node": "npm:^22.15.3"
-    "@types/pg": "npm:^8.15.4"
-    "@types/ws": "npm:^8.5.10"
-    bcrypt: "npm:^6.0.0"
-    body-parser: "npm:^2.2.0"
-    buffer: "npm:^6.0.3"
-    cookie-parser: "npm:^1.4.7"
-    cors: "npm:^2.8.5"
-    dotenv: "npm:^16.5.0"
-    email-validator: "npm:^2.0.4"
-    ethers: "npm:^6.13.7"
-    express: "npm:4.20.0"
-    form-data: "npm:^4.0.5"
-    helmet: "npm:^8.1.0"
-    jest: "npm:^29.7.0"
-    jsonwebtoken: "npm:^9.0.2"
-    mailgun.js: "npm:^12.4.1"
-    morgan: "npm:^1.10.0"
-    multer: "npm:^2.0.2"
-    nodemon: "npm:^3.1.10"
-    pg: "npm:^8.16.3"
-    redis: "npm:^4.6.13"
-    reflect-metadata: "npm:^0.2.2"
-    ts-jest: "npm:^29.1.2"
-    ts-node: "npm:^10.9.2"
-    ts-node-dev: "npm:^2.0.0"
-    typescript: "npm:^5.8.3"
-    ws: "npm:^8.18.2"
-  languageName: unknown
-  linkType: soft
-
-"apostille@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "apostille@workspace:."
-  dependencies:
-    "@openwallet-foundation/askar-nodejs": "npm:^0.4.3"
-    "@playwright/test": "npm:^1.59.1"
-    buffer: "npm:^6.0.3"
-    concurrently: "npm:^8.2.2"
-    dotenv-cli: "npm:^7.3.0"
-    jest-environment-jsdom: "npm:^29.7.0"
-    motion: "npm:^12.23.3"
-    tsx: "npm:^4.21.0"
-  dependenciesMeta:
-    "@animo-id/pex@4.1.1-alpha.0":
-      built: false
-    "@sphereon/pex@5.0.0-unstable.24":
-      built: false
-  languageName: unknown
-  linkType: soft
-
 "append-field@npm:^1.0.0":
   version: 1.0.0
   resolution: "append-field@npm:1.0.0"
@@ -11387,6 +11298,95 @@ __metadata:
   checksum: 10/e9fd0695a01cf226652f0385bf16b7a24153dbbb2039f764c8ba6d2306a8506b0e4ce570de6ad99c7a6eb49520743afdb66edd95ee979c1a342554ed49a9aadd
   languageName: node
   linkType: hard
+
+"opencrms-backend@workspace:backend":
+  version: 0.0.0-use.local
+  resolution: "opencrms-backend@workspace:backend"
+  dependencies:
+    "@ajna-inc/calendar": "npm:0.1.0"
+    "@ajna-inc/group-messaging": "npm:0.1.2"
+    "@ajna-inc/openbadges": "npm:0.6.3"
+    "@ajna-inc/payments": "npm:0.6.1"
+    "@ajna-inc/poe": "npm:0.6.1"
+    "@ajna-inc/signing": "npm:0.6.1"
+    "@ajna-inc/vaults": "npm:^0.7.3"
+    "@ajna-inc/webrtc": "npm:0.6.1"
+    "@ajna-inc/workflow": "npm:0.6.82"
+    "@ajna-inc/workflow-backend-express": "workspace:*"
+    "@aws-sdk/client-s3": "npm:^3.966.0"
+    "@aws-sdk/s3-request-presigner": "npm:^3.966.0"
+    "@credo-ts/anoncreds": "npm:0.6.1"
+    "@credo-ts/askar": "npm:0.6.1"
+    "@credo-ts/core": "npm:0.6.1"
+    "@credo-ts/didcomm": "npm:0.6.1"
+    "@credo-ts/indy-vdr": "npm:0.6.1"
+    "@credo-ts/node": "npm:0.6.1"
+    "@credo-ts/openid4vc": "npm:0.6.1"
+    "@credo-ts/tenants": "npm:0.6.1"
+    "@hyperledger/anoncreds-nodejs": "npm:^0.3.1"
+    "@hyperledger/anoncreds-shared": "npm:^0.3.1"
+    "@openwallet-foundation/askar-nodejs": "npm:^0.4.3"
+    "@openwallet-foundation/askar-shared": "npm:^0.4.3"
+    "@types/bcrypt": "npm:^5.0.2"
+    "@types/cookie-parser": "npm:^1.4.8"
+    "@types/cors": "npm:^2.8.17"
+    "@types/express": "npm:^4.17.21"
+    "@types/figlet": "npm:^1.5.4"
+    "@types/indy-sdk": "npm:^1.16.26"
+    "@types/jest": "npm:^29.5.12"
+    "@types/jsonwebtoken": "npm:^9.0.9"
+    "@types/morgan": "npm:^1.9.9"
+    "@types/multer": "npm:^2.0.0"
+    "@types/node": "npm:^22.15.3"
+    "@types/pg": "npm:^8.15.4"
+    "@types/ws": "npm:^8.5.10"
+    bcrypt: "npm:^6.0.0"
+    body-parser: "npm:^2.2.0"
+    buffer: "npm:^6.0.3"
+    cookie-parser: "npm:^1.4.7"
+    cors: "npm:^2.8.5"
+    dotenv: "npm:^16.5.0"
+    email-validator: "npm:^2.0.4"
+    ethers: "npm:^6.13.7"
+    express: "npm:4.20.0"
+    form-data: "npm:^4.0.5"
+    helmet: "npm:^8.1.0"
+    jest: "npm:^29.7.0"
+    jsonwebtoken: "npm:^9.0.2"
+    mailgun.js: "npm:^12.4.1"
+    morgan: "npm:^1.10.0"
+    multer: "npm:^2.0.2"
+    nodemon: "npm:^3.1.10"
+    pg: "npm:^8.16.3"
+    redis: "npm:^4.6.13"
+    reflect-metadata: "npm:^0.2.2"
+    ts-jest: "npm:^29.1.2"
+    ts-node: "npm:^10.9.2"
+    ts-node-dev: "npm:^2.0.0"
+    typescript: "npm:^5.8.3"
+    ws: "npm:^8.18.2"
+  languageName: unknown
+  linkType: soft
+
+"opencrms@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "opencrms@workspace:."
+  dependencies:
+    "@openwallet-foundation/askar-nodejs": "npm:^0.4.3"
+    "@playwright/test": "npm:^1.59.1"
+    buffer: "npm:^6.0.3"
+    concurrently: "npm:^8.2.2"
+    dotenv-cli: "npm:^7.3.0"
+    jest-environment-jsdom: "npm:^29.7.0"
+    motion: "npm:^12.23.3"
+    tsx: "npm:^4.21.0"
+  dependenciesMeta:
+    "@animo-id/pex@4.1.1-alpha.0":
+      built: false
+    "@sphereon/pex@5.0.0-unstable.24":
+      built: false
+  languageName: unknown
+  linkType: soft
 
 "openid-client@npm:^5.4.0":
   version: 5.7.1

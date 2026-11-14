@@ -71,7 +71,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#FAFAF9" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content={process.env.NEXT_PUBLIC_COMPANY_NAME || 'Apostille'} />
+        <meta name="apple-mobile-web-app-title" content={process.env.NEXT_PUBLIC_COMPANY_NAME || 'OpenCrMS'} />
         <link rel="apple-touch-icon" href="A" />
         <link rel="icon" href={process.env.NEXT_PUBLIC_BWN_LOGO || 'A'} />
       </head>
