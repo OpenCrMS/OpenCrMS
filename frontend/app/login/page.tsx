@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import Link from 'next/link';
 import { Icon, ErrorIcon } from '../components/ui/Icons';
 
-const COMPANY_NAME = process.env.NEXT_PUBLIC_COMPANY_NAME || 'Apostille';
+const COMPANY_NAME = process.env.NEXT_PUBLIC_COMPANY_NAME || 'OpenCrMS';
 const COMPANY_SUB = process.env.NEXT_PUBLIC_COMPANY_SUBTITLE || 'Credential Management System';
 const COMPANY_TAGLINE = process.env.NEXT_PUBLIC_COMPANY_TAGLINE || 'Identity infrastructure that holders, issuers, and verifiers can actually trust.';
 const COMPANY_DESC = process.env.NEXT_PUBLIC_COMPANY_DESCRIPTION || 'DIDComm, OID4VC, mDoc, AnonCreds — one console for every credential format your operators ship today.';
